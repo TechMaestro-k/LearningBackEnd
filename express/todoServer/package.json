@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-todoServer": "npx jest ./tests/todoServer.test.js"
+    "test-todoServer": "npx jest ./tests/todoServer.test.js",
+    "test-todoServer2": "npx jest ./tests/todoServer.test.js"
   },
   "keywords": [],
   "author": "",
