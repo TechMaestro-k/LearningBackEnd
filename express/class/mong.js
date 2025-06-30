@@ -5,7 +5,7 @@ const app=express()
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://maheshwarikushagra09:BB9OcTLZulNiSGFO@cluster0.ugzefii.mongodb.net/userAppNew",
+  "url",
 );
 
 const User = mongoose.model('Users', { name : String ,email: String, password: String });
